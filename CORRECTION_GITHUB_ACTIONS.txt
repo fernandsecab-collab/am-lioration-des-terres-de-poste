@@ -1,0 +1,24 @@
+CORRECTION GITHUB ACTIONS - V7.1
+
+Corrections effectuées :
+1. Windows : ajout de --publish never dans le script dist:win.
+   Cela supprime l'erreur : GH_TOKEN not set / Process completed with exit code 1.
+
+2. Workflows : déclenchement automatique ajouté sur push main/master.
+   Les builds se lancent maintenant automatiquement à chaque commit.
+
+3. Workflows : workflow_dispatch conservé.
+   Le bouton Run workflow reste disponible pour lancer manuellement.
+
+4. PWA : ajout du lancement manuel workflow_dispatch.
+
+Fichiers modifiés :
+- package.json
+- .github/workflows/windows-electron-build.yml
+- .github/workflows/android-apk-build.yml
+- .github/workflows/pwa-netlify-check.yml
+
+Après import sur GitHub :
+- Commit changes
+- Les workflows doivent se lancer automatiquement
+- Sinon : Actions > choisir workflow > Run workflow

@@ -1,0 +1,14 @@
+SECAB Couplage Expert V7 - Formules verrouillées
+
+Référence utilisée : EDF B13-23, procédure de mesure du couplage.
+
+1) Mesure RM : terre des masses.
+2) Mesure RNg : terre globale du neutre BT.
+3) Mesure RNi : terre de neutre individuelle si plusieurs terres de neutre.
+4) Mesure RMN.
+5) Vérification : RM + RNi >= RMN.
+6) Calcul : Rc = (RM + RNi - RMN) / 2.
+7) Coefficient : c = Rc / RM.
+8) Conformité : c < 0,15.
+
+Attention : RN/RNg sert au contrôle de la terre globale du neutre, mais ne sert pas à calculer le coefficient de couplage c.

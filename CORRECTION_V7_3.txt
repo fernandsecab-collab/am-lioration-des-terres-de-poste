@@ -1,0 +1,1 @@
+V7.3: dépendances figées compatibles Node 20 pour corriger erreur vite not recognized / npm install incomplet. package-lock supprimé volontairement.

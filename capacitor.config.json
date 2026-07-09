@@ -1,0 +1,9 @@
+{
+  "appId": "fr.secab.couplage.expert",
+  "appName": "SECAB Couplage Expert",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
